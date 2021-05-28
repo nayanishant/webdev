@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+nav {
+    background: #262626;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    position: sticky;
+    top: 0%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+header {
+    height: 500px;
+}
+
+.text {
+    width: auto;
+    height: 500px;
+    background-image: url(images/02.jpg);
+    background-position: contain;
+    background-position: center center;
+    color: rgba(199, 195, 195, 0.493);
+    align-items: center;
+    padding: 10rem;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.parent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#top {
+    position: absolute;
+    padding: 40px;
+    color: white;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#one {
+    background-color: #040C0E;
+}
+
+#two {
+    background-color: #132226;
+}
+
+#three {
+    background-color: #525B56;
+}
+
+#four {
+    background-color: #BE9063;
+}
+
+#five {
+    background-color: #A4978E;
+}
+
+.clr {
+    width: 252.6px;
+    height: 350px;
+}
